@@ -8,6 +8,7 @@ name: New Hires
 policies:
   - path: ../lib/macos-device-health.policies.yml
   - path: ../lib/linux-device-health.policies.yml
+  - path: ../lib/gatekeeper.yml
 queries:
   - path: ../lib/collect-usb-devices.queries.yml
   - path: ../lib/collect-failed-login-attempts.queries.yml
@@ -17,6 +18,7 @@ controls:
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
+    - path: ../lib/gatekeeper.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
