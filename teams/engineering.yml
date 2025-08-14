@@ -38,3 +38,7 @@ team_settings:
       host_batch_size: 0
       policy_ids:
 software:
+  packages:
+    - path: ../lib/windows/software/cloudflare-warp.yml
+
+
