@@ -11,7 +11,7 @@ agent_options:
   path: ./lib/agent-options.yml
 controls: # This cannot be set here and in no-team.yml
 org_settings:
-  host_expiry_setttings:
+  host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
   fleet_desktop:
