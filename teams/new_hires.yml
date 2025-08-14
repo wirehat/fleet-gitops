@@ -25,6 +25,7 @@ controls:
     minimum_version: "16.0"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
